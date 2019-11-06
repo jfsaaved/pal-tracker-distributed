@@ -19,7 +19,7 @@ public class ProjectInfo {
         if (o == null || getClass() != o.getClass()) return false;
 
         ProjectInfo that = (ProjectInfo) o;
-
+ 
         return active == that.active;
     }
 
